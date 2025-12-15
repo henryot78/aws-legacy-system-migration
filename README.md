@@ -29,6 +29,7 @@ MySQL, PHP, and WordPress.
 ## 📸 Screenshots
 Screenshots of the setup process are included in the `/screenshots` folder.
 
+#EC2 Created
 ## ✅ Outcome
 - Legacy system successfully migrated to AWS
 - Website accessible via public IP
