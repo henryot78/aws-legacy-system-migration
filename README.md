@@ -30,6 +30,24 @@ MySQL, PHP, and WordPress.
 Screenshots of the setup process are included in the `/screenshots` folder.
 
 #EC2 Created
+<img width="2172" height="812" alt="image" src="https://github.com/user-attachments/assets/25c7b866-951e-40db-8cb3-2f00e91577fc" />
+
+#Wordpress installation 
+<img width="1612" height="878" alt="image" src="https://github.com/user-attachments/assets/01984b16-03ee-4838-b0c7-b11f3ac601a1" />
+
+#Unpacking website, moving to apache directory and giving appropriate permissions
+<img width="1466" height="482" alt="image" src="https://github.com/user-attachments/assets/9bef2bed-9c68-4710-928f-6e209c1a1e85" />
+
+#Database setup 
+<img width="1626" height="914" alt="image" src="https://github.com/user-attachments/assets/dbf93fec-7d7f-4cb1-b6af-fc28fd36e2f4" />
+
+#Wordpress configuration 
+<img width="1222" height="260" alt="image" src="https://github.com/user-attachments/assets/b9e8107e-f81e-4063-baf1-50dff4906b58" />
+
+#Wordpress launch 
+<img width="904" height="900" alt="image" src="https://github.com/user-attachments/assets/70f1f215-280d-4283-8b25-0310f6821a32" />
+
+
 ## ✅ Outcome
 - Legacy system successfully migrated to AWS
 - Website accessible via public IP
