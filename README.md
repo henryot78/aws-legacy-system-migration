@@ -1,5 +1,5 @@
 # Migrating a Legacy System to AWS (EC2 + WordPress)
-
+Watch me perform this project here: https://www.loom.com/share/a21d3db74b4b499bacfc13f8d2eb3f7a
 ## 📌 Project Overview
 This project demonstrates migrating a company’s legacy on-prem system to AWS using EC2.
 The legacy system was modernized by deploying a scalable cloud server running Apache,
