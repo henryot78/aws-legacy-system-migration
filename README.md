@@ -117,7 +117,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install apache2 -y
 ```
 
-Verify:
+### Verify:
 ```bash
 sudo systemctl status apache2
 ```
@@ -190,13 +190,22 @@ EXIT;
 sudo mv /var/www/html/wp-config-sample.php /var/www/html/wp-config.php
 sudo nano /var/www/html/wp-config.php
 ```
-
+### Edit config file
+```bash
+sudo nano /var/www/html/wp-config.php
+```
+### Update these: 
+```bash
+define('DB_NAME', 'wordpress_db');
+define('DB_USER', 'wordpress_user');
+define('DB_PASSWORD', 'your_password');
+```
 ---
 
 ### Step 12: Restart Apache & Finalize
 ```bash
-sudo systemctl restart apache2
 sudo rm /var/www/html/index.html
+sudo systemctl restart apache2
 ```
 
 ---
@@ -214,15 +223,4 @@ http://<EC2_PUBLIC_IP>
 - WordPress files present ✔️
 - Website loads in browser ✔️
 
----
 
-## Future Improvements
-- Add HTTPS using Let’s Encrypt
-- Use RDS instead of local MySQL
-- Automate setup with Terraform
-- Add monitoring with CloudWatch
-
----
-
-## Author
-Henry Omu
