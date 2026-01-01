@@ -1,4 +1,4 @@
-# Project 1: Migrating a Company’s Legacy System to AWS
+## Migrating a Company’s Legacy System to AWS
 
 ## Overview
 This project demonstrates how to migrate a traditional **legacy web system** (previously hosted on a physical or outdated server) to **Amazon Web Services (AWS)** using a modern cloud-based architecture.
@@ -82,9 +82,7 @@ Before starting this project, you need:
 - Launch an EC2 instance with **Ubuntu**
 - Assign a key pair
 - Configure security groups
-- Capture:
-  - Public IP
-  - Public DNS name
+
 
 **Outcome:** A running virtual server in AWS.
 
